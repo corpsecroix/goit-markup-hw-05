@@ -149,7 +149,7 @@ img {
 }
 
 .hero-button {
-  background-color: var(--ocean);
+  background-color: var(--iriscolor);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -167,7 +167,7 @@ img {
 
 .hero-button:hover,
 .hero-button:focus {
-  background: var(--IRIS, #4d5ae5);
+  background: var(--ocean);
   cursor: pointer;
 }
 
