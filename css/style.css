@@ -171,6 +171,31 @@ img {
   cursor: pointer;
 }
 
+.modal {
+  width: 408px;
+  height: 584px;
+  background-color: white;
+  border-radius: 4px;
+  padding-inline-start: 24px;
+}
+
+.is-hidden {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.modal-close-button {
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  color: var(--ocean);
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
+
 .section-no-top-padding {
   padding-top: 0;
 }
@@ -482,6 +507,17 @@ img {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean);
+}
+
+.active-link::after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--ocean);
+  position: relative;
+  top: 15px;
 }
 
 .project-link:hover,
