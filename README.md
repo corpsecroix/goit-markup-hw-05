@@ -1,2 +1,3 @@
-# goit-markup-hw-04
-decorative effects and elements
+# goit-markup-hw-05
+
+Positioned elements, transitions and animations.
